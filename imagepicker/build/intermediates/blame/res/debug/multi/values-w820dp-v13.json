@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\github\\CircleDemo\\CircleDemo\\imagepicker\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 56,
+                    "endOffset": 107
+                },
+                "from": {
+                    "file": "F:\\github\\CircleDemo\\CircleDemo\\imagepicker\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1006,
+                        "endColumn": 56,
+                        "endOffset": 1058
+                    }
+                }
+            }
+        ]
+    }
+]

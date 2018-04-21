@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/padding_common_v">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_head" />
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_common_d"
+            android:layout_marginTop="@dimen/padding_common_d"
+            android:layout_toRightOf="@+id/img_avatar"
+            android:maxLength="6"
+            android:text="小花花漂亮话"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorTextTitle" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_nickname"
+            android:layout_marginLeft="@dimen/padding_common_d"
+            android:layout_marginTop="@dimen/padding_common_d"
+            android:layout_toRightOf="@+id/img_avatar"
+            android:drawableLeft="@drawable/normal_biaoti_red"
+            android:drawablePadding="@dimen/padding_common_d"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="标标题标题标题标题题"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorTextContent"
+            android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:id="@+id/img_is_vip"
+            android:layout_width="@dimen/litter_img_width_height_12"
+            android:layout_height="@dimen/litter_img_width_height_12"
+            android:layout_margin="@dimen/padding_common_d"
+            android:layout_toRightOf="@+id/tv_nickname"
+            android:background="@drawable/normal_location_fh"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_avatar"
+            android:layout_marginLeft="@dimen/padding_common_d"
+            android:layout_marginTop="@dimen/padding_common_v"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="内容内容内容内容内容内容内容内内容容内容内容内容内容内容内容内容内容内容内容内容"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorTextAssistant"
+            android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:id="@+id/img_is_blog"
+            android:layout_width="@dimen/litter_img_width_height_12"
+            android:layout_height="@dimen/litter_img_width_height_12"
+            android:layout_marginTop="@dimen/padding_common_d"
+            android:layout_toRightOf="@id/img_is_vip"
+            android:background="@drawable/normal_like_fh"
+            android:scaleType="centerCrop" />
+
+        <com.zlb.memo.widgets.SquareLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_detail"
+            android:layout_marginTop="@dimen/padding_common_v"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:id="@+id/img_cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/demo_backgroud" />
+
+            <com.coorchice.library.SuperTextView
+                android:id="@+id/tv_photo_number"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp_10"
+                android:gravity="center"
+                android:padding="@dimen/padding_common_d"
+                android:text="9张"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16"
+                app:corner="20dp"
+                app:left_bottom_corner="true"
+                app:left_top_corner="true"
+                app:right_bottom_corner="true"
+                app:right_top_corner="true"
+                app:solid="@color/transparentBlank_8" />
+        </com.zlb.memo.widgets.SquareLayout>
+    </RelativeLayout>
+
+    <com.haozhang.lib.SlantedTextView
+        android:id="@+id/tv_add_follow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        app:slantedBackgroundColor="@color/colorPrimary"
+        app:slantedMode="right_triangle"
+        app:slantedText="关注"
+        app:slantedTextColor="@color/white"
+        app:slantedTextSize="@dimen/textsize_small" />
+</android.support.v7.widget.CardView>

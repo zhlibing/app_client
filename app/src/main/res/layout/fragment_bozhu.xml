@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rf_refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:srlAccentColor="@color/colorPrimary"
+    app:srlEnableAutoLoadmore="true"
+    app:srlEnableHeaderTranslationContent="false"
+    app:srlEnablePreviewInEditMode="true"
+    app:srlHeaderHeight="150dp"
+    app:srlHeaderTriggerRate="0.5"
+    app:srlPrimaryColor="@color/blur_default">
+
+    <com.scwang.smartrefresh.header.WaveSwipeHeader
+        android:id="@+id/tau_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_bozhu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+
+    <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srlAccentColor="#888"
+        app:srlClassicsSpinnerStyle="Translate"
+        app:srlDrawableProgress="@drawable/ic_progress_hojder" />
+
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>
+

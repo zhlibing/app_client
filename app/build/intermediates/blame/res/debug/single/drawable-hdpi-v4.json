@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_ic_delete_black_24dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_checkbox_n.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_checkbox_n.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qmui_icon_topbar_back.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e9ef3e607586d8c017b0649225a661fa185caa4a\\output\\res\\drawable-hdpi-v4\\qmui_icon_topbar_back.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pass_visuable.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\pass_visuable.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ucrop_ic_cross.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\drawable-hdpi-v4\\ucrop_ic_cross.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sign_ban_30.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\sign_ban_30.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_add.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6b23cd0ae7d79dbafd5bd364cf7d267b3a9b0a65\\output\\res\\drawable-hdpi-v4\\fab_add.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_mask.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\scan_mask.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\linecode_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\linecode_icon.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toast_frame.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\toast_frame.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sign_check_30.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\sign_check_30.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_checkbox_marked.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_checkbox_marked.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\capture.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\capture.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info_outline_white_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\ic_info_outline_white_48dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ucrop_ic_reset.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\drawable-hdpi-v4\\ucrop_ic_reset.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ucrop_ic_crop.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\drawable-hdpi-v4\\ucrop_ic_crop.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_check_white_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\ic_check_white_48dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_ic_camera_n.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_ic_camera_n.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ucrop_ic_scale.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\drawable-hdpi-v4\\ucrop_ic_scale.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\777ec3d3459997920cda433545147586b2fbeab0\\output\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wheel_h_index.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\wheel_h_index.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ucrop_ic_next.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\drawable-hdpi-v4\\ucrop_ic_next.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ucrop_ic_done.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\drawable-hdpi-v4\\ucrop_ic_done.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_error_outline_white_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\ic_error_outline_white_48dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ucrop_ic_rotate.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\drawable-hdpi-v4\\ucrop_ic_rotate.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\777ec3d3459997920cda433545147586b2fbeab0\\output\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_ic_delete_p.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_ic_delete_p.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ucrop_ic_angle.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\drawable-hdpi-v4\\ucrop_ic_angle.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\slibe_up.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\slibe_up.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_ic_photo_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_ic_photo_black_48dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_clear_white_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\ic_clear_white_48dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pass_gone.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\pass_gone.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_ic_camera_p.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_ic_camera_p.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\code_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\code_icon.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_ic_delete_n.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_ic_delete_n.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\slibe_down.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\slibe_down.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kakalib_scan_ray.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a7084541774da49d0f3860454d15139154d7dab\\output\\res\\drawable-hdpi-v4\\kakalib_scan_ray.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ed4fd8470528969dc6ca06a4802482568bc0ae4f\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\__picker_ic_broken_image_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\drawable-hdpi-v4\\__picker_ic_broken_image_black_48dp.png"
+    }
+]

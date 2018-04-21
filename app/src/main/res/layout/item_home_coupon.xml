@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="0dp">
+
+    <yyydjk.com.library.CouponView
+        android:id="@+id/couponView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:cv_dash_line_color="@color/colorAccent"
+        app:cv_dash_line_gap="5dp"
+        app:cv_dash_line_height="0.8dp"
+        app:cv_dash_line_length="10dp"
+        app:cv_dash_line_margin_bottom="45dp"
+        app:cv_dash_line_margin_left="5dp"
+        app:cv_dash_line_margin_right="5dp"
+        app:cv_dash_line_margin_top="8dp"
+        app:cv_is_dash_line_bottom="true"
+        app:cv_is_dash_line_left="false"
+        app:cv_is_dash_line_right="false"
+        app:cv_is_dash_line_top="false"
+        app:cv_is_semicircle_bottom="true"
+        app:cv_is_semicircle_left="false"
+        app:cv_is_semicircle_right="false"
+        app:cv_is_semicircle_top="true"
+        app:cv_semicircle_color="@color/colorAccent"
+        app:cv_semicircle_gap="4dp"
+        app:cv_semicircle_radius="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_common_d"
+        android:paddingLeft="@dimen/padding_common_d"
+        android:paddingRight="@dimen/padding_common_d"
+        android:paddingTop="@dimen/padding_common_h">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/demo_backgroud" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_toRightOf="@+id/img_avatar"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="￥88元"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/sp_16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_common_d"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="鲍鱼稀饭送暴雨6只"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/sp_14"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_common_d"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="1155人抢过"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_common_d"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="仅剩88张"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_common_d"
+                    android:drawableLeft="@drawable/normal_location_fh"
+                    android:drawablePadding="@dimen/padding_common_d"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="蜀山区集贤路188号"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv_add_follow"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="指定园区可用 使用后立减88元"
+                android:textColor="@color/goldenrod"
+                android:textSize="@dimen/sp_14" />
+
+            <com.coorchice.library.SuperTextView
+                android:id="@+id/tv_add_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/padding_common_d"
+                android:paddingLeft="@dimen/padding_common_v"
+                android:paddingRight="@dimen/padding_common_v"
+                android:paddingTop="@dimen/padding_common_d"
+                android:text="赠一得一"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14"
+                app:corner="2dp"
+                app:left_bottom_corner="true"
+                app:left_top_corner="true"
+                app:right_bottom_corner="true"
+                app:right_top_corner="true"
+                app:shaderEnable="true"
+                app:shaderEndColor="@color/gold"
+                app:shaderMode="rightToLeft"
+                app:shaderStartColor="@color/colorAccent"
+                app:solid="@color/colorAccent"
+                app:stroke_color="@color/colorAccent"
+                app:stroke_width="0dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

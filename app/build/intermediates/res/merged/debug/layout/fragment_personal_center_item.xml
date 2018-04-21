@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rf_personal_center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_common_d"
+        android:layout_marginTop="@dimen/padding_common_d"
+        android:padding="@dimen/padding_common_v">
+
+        <ImageView
+            android:id="@+id/img_menu_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/normal_daren_gold" />
+
+        <TextView
+            android:id="@+id/tv_menu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_common_d"
+            android:layout_toRightOf="@+id/img_menu_icon"
+            android:text="还没想好"
+            android:textColor="@color/colorTextContent"
+            android:textSize="@dimen/sp_16" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_menu_details"
+            android:src="@color/red" />
+
+        <TextView
+            android:id="@+id/tv_menu_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_common_d"
+            android:layout_toLeftOf="@+id/img_menu_arrow"
+            android:text="新消息"
+            android:textColor="@color/colorTextAssistant"
+            android:textSize="@dimen/sp_16" />
+
+        <ImageView
+            android:id="@+id/img_menu_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/normal_youjiantou" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/padding_common_v"
+        android:layout_marginRight="@dimen/padding_common_v"
+        android:background="@color/default_clickable_color" />
+</RelativeLayout>

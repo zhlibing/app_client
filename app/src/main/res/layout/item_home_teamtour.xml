@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <com.zlb.memo.widgets.RxCobwebView
+            android:id="@+id/cobweb_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.7"
+            app:spiderColor="@color/colorPrimaryDark"
+            app:spiderNameSize="@dimen/sp_12"
+            app:spiderRotate="false" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_common_d">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/padding_common_v"
+                android:src="@drawable/icon_head" />
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_common_d"
+                android:layout_marginTop="@dimen/padding_common_v"
+                android:layout_toLeftOf="@+id/img_like"
+                android:layout_toRightOf="@+id/img_avatar"
+                android:ellipsize="end"
+                android:maxLength="6"
+                android:text="小花花漂亮话"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorTextTitle" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nickname"
+                android:layout_marginLeft="@dimen/padding_common_d"
+                android:layout_marginTop="@dimen/padding_common_v"
+                android:layout_toLeftOf="@+id/img_like"
+                android:layout_toRightOf="@+id/img_avatar"
+                android:drawableLeft="@drawable/normal_biaoqian"
+                android:drawablePadding="@dimen/padding_common_d"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLength="8"
+                android:text="开朗|大方|帅气"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorAccent_like" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_common_v"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.vondear.rxtools.view.likeview.RxShineButton
+                    android:id="@+id/img_like"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:btn_color="@android:color/darker_gray"
+                    app:btn_fill_color="@color/colorAccent"
+                    app:enable_flashing="true"
+                    app:shine_size="40dp"
+                    app:siShape="@raw/like" />
+
+                <TextView
+                    android:id="@+id/tv_num_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_common_d"
+                    android:text="166人"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/colorTextAssistant"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

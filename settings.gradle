@@ -1,0 +1,1 @@
+include ':app', ':qupai', ':Cardlibrary', ':CardGallylibrary', ':xrichtext', ':imagepicker', ':androidtagview', ':netexpand'

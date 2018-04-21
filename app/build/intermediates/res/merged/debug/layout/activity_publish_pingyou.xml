@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/AppTheme.Toolbar"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimary"
+        app:layout_collapseMode="pin"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="发布">
+
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="@dimen/padding_common_h"
+            android:text="下一步"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/tv_confirm_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rl_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/rl_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner_rectangle_green_bottom_radius_shape"
+            android:paddingLeft="@dimen/padding_common_v"
+            android:paddingRight="@dimen/padding_common_v">
+
+            <AutoCompleteTextView
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:completionThreshold="1"
+                android:hint="可输入地址搜索或点击地图进行周边搜索"
+                android:imeOptions="actionDone"
+                android:inputType="text|textAutoComplete"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="@color/colorTextContent"
+                android:textColorHint="@color/colorTextAssistant"
+                android:textSize="@dimen/sp_14" />
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/normal_search_black" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_yulan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="@dimen/padding_common_v"
+            android:src="@drawable/normal_yulan"
+            android:visibility="gone" />
+
+        <SlidingDrawer
+            android:id="@+id/slidingdrawer"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:content="@+id/content"
+            android:handle="@+id/handle"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@id/handle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparentWhite_c"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_slide"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="7.5dp"
+                    android:src="@drawable/normal_shanghua" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="附近热门位置"
+                    android:textColor="@color/colorTextTitle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/transparentWhite_c"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rc_search_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/padding_common_v"
+                    android:layout_marginRight="@dimen/padding_common_v"
+                    android:overScrollMode="never"
+                    android:visibility="visible"
+                    tools:listitem="@layout/item_publish_search_result" />
+            </LinearLayout>
+        </SlidingDrawer>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_select"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/img_edit"
+            android:overScrollMode="never"
+            tools:listitem="@layout/item_publish_pingyou_select" />
+
+        <ImageView
+            android:id="@+id/img_edit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/padding_common_d"
+            android:src="@drawable/normal_bianji_green" />
+    </RelativeLayout>
+
+</LinearLayout>

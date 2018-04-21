@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rf_personal_center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="@dimen/padding_common_d">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_location"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/normal_location_fh" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_common_d"
+            android:layout_toRightOf="@+id/img_location"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="万达广场芜湖站"
+            android:textColor="@color/colorTextTitle"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginLeft="@dimen/padding_common_d"
+            android:layout_marginTop="@dimen/padding_common_d"
+            android:layout_toRightOf="@+id/img_location"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="万达广场芜湖站"
+            android:textColor="@color/colorTextContent"
+            android:textSize="@dimen/sp_12" />
+
+        <ImageView
+            android:id="@+id/img_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/qmui_icon_checkbox_normal" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

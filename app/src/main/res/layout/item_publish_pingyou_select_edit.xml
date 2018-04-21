@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_all"
+    android:layout_width="wrap_content"
+    android:layout_height="70dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@color/white"
+    android:padding="@dimen/padding_common_d">
+
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/padding_common_v"
+        android:layout_marginTop="@dimen/padding_common_d"
+        android:layout_toLeftOf="@+id/tv_dellete"
+        android:layout_toRightOf="@+id/tv_num"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:hint="暂无添加看点介绍，点击进入添加，越详细越吸引游客哦！"
+        android:maxLines="2"
+        android:textColor="@color/colorTextContent"
+        android:textSize="@dimen/sp_12" />
+
+    <com.coorchice.library.SuperTextView
+        android:id="@+id/tv_num"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16"
+        app:corner="20dp"
+        app:left_bottom_corner="true"
+        app:left_top_corner="true"
+        app:right_bottom_corner="true"
+        app:right_top_corner="true"
+        app:shaderEnable="true"
+        app:shaderEndColor="@color/gold"
+        app:shaderMode="rightToLeft"
+        app:shaderStartColor="@color/colorAccent"
+        app:solid="@color/colorAccent"
+        app:stroke_color="@color/colorAccent"
+        app:stroke_width="0dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_common_v"
+        android:layout_marginTop="@dimen/padding_common_d"
+        android:layout_toRightOf="@+id/tv_num"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="万达广场芜湖站"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="@dimen/sp_14" />
+
+    <ImageView
+        android:id="@+id/img_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/normal_youjiantou"
+        android:visibility="visible" />
+
+    <com.coorchice.library.SuperTextView
+        android:id="@+id/tv_dellete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/padding_common_v"
+        android:layout_toLeftOf="@+id/img_next"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_common_d"
+        android:paddingLeft="@dimen/padding_common_v"
+        android:paddingRight="@dimen/padding_common_v"
+        android:paddingTop="@dimen/padding_common_d"
+        android:text="删除"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14"
+        app:corner="5dp"
+        app:left_bottom_corner="true"
+        app:left_top_corner="true"
+        app:right_bottom_corner="true"
+        app:right_top_corner="true"
+        app:solid="@color/colorAccent"
+        app:stroke_color="@color/colorAccent"
+        app:stroke_width="0.5dp" />
+
+</RelativeLayout>

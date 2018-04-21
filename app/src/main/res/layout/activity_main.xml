@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:jp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zlb.memo.widgets.NoScrollViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp" />
+
+    <com.jpeng.jptabbar.JPTabBar
+        android:id="@+id/tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tab_bg"
+        app:TabMiddleBottomDis="14dp"
+        jp:TabAnimate="Scale"
+        jp:TabIconSize="@dimen/activity_horizontal_margin"
+        jp:TabTextSize="@dimen/sp_12" />
+</RelativeLayout>

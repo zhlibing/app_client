@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_back_white_24dp.xml",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_white_24dp.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\qmui_icon_topbar_back.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e9ef3e607586d8c017b0649225a661fa185caa4a\\output\\res\\drawable-anydpi-v21\\qmui_icon_topbar_back.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_back_gray_24dp.xml",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_gray_24dp.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_index_dashboard.xml",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_index_dashboard.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_back_dark_24dp.xml",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_dark_24dp.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\777ec3d3459997920cda433545147586b2fbeab0\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\777ec3d3459997920cda433545147586b2fbeab0\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    }
+]

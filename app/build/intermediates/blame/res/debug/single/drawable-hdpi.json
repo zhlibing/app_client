@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_back_gray_24dp.png",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_back_gray_24dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_index_dashboard.png",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_index_dashboard.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_video_play.png",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\src\\main\\res\\drawable-hdpi\\ic_video_play.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_back_dark_24dp.png",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_back_dark_24dp.png"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_back_white_24dp.png",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_back_white_24dp.png"
+    }
+]

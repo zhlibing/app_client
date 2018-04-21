@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zlb.memo.widgets.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="@dimen/padding_common_d">
+
+    <ImageView
+        android:id="@+id/img_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/demo_backgroud" />
+
+    <com.coorchice.library.SuperTextView
+        android:id="@+id/tv_photo_number"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/dp_10"
+        android:gravity="center"
+        android:padding="@dimen/padding_common_d"
+        android:text="9张"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16"
+        app:corner="20dp"
+        app:left_bottom_corner="true"
+        app:left_top_corner="true"
+        app:right_bottom_corner="true"
+        app:right_top_corner="true"
+        app:solid="@color/transparentBlank_8" />
+</com.zlb.memo.widgets.SquareLayout>

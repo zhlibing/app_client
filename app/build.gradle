@@ -1,0 +1,204 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.zlb.memo"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+
+        renderscriptTargetApi 25
+        renderscriptSupportModeEnabled true    // Enable RS support
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../yiwcircle.jks")
+            keyAlias "yiwcircle"
+            storePassword "123456"
+            keyPassword "123456"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/rxjava.properties'
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "2g"   //这个改大
+    }
+}
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '25.3.1'
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.android.support:support-v4:25+'
+    compile 'com.github.chrisbanes:PhotoView:1.3.0'
+    compile 'com.malinskiy:superrecyclerview:1.1.4'
+    compile 'com.mikhaellopez:circularprogressbar:1.1.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile('com.github.bumptech.glide:okhttp3-integration:1.4.0') {
+        exclude group: 'glide-parent'
+    }
+
+    compile 'pub.devrel:easypermissions:0.2.1'
+//    compile project(':qupai')
+    //debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'//版本随意（非必须，引用可以解决无法预览问题）
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    compile 'com.qmuiteam:qmui:1.+'
+    //刷新框架，新版本预览版-发现bug请加群提出，并切换 1.0.3 版本
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-1'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-1'//没有使用特殊Header，可以不加这行
+//    compile 'com.scwang.smartrefresh:SmartRefreshFooter:+'//没有使用特殊Header，可以不加这行
+    //工具框架
+    compile 'com.github.vondear:RxTools:v1.+'//请替换成上方 JitPack 最新的版本号
+    //底部tab框架
+    compile 'com.jpeng:JPTabBar:1.+'
+    //view添加阴影
+    compile 'com.github.florent37:longshadow:+'
+    //引导式图
+    compile 'com.github.huburt-Hu:NewbieGuide:v1.+'
+    //popup框架
+    compile 'com.github.zyyoona7:EasyPopup:+'
+    //各种视图选择
+    compile 'com.github.addappcn:android-pickers:1.+'
+    //纸屑粒子效果
+    compile 'nl.dionsegijn:konfetti:1.+'
+    //超级文字
+    compile 'com.github.chenBingX:SuperTextView:+'
+    //标签文字
+    compile 'com.haozhang.libary:android-slanted-textview:1.2'
+    //处理APP异常崩溃
+    compile 'com.wanjian:cockroach:0.0.5'
+    //一个能将里面的ImageView斜切的布局
+    compile 'com.github.florent37:diagonallayout:1.0.7'
+    //标签自定义view
+    compile 'com.github.shellljx:TagViewGroup:v1.2'
+    //一个为里面的视图增加弧形效果的布局,http://www.jcodecraeer.com/a/opensource/2016/1202/6826.html
+    compile 'com.github.florent37:arclayout:1.0.1'
+    //自定义LayoutManager实现的一个可回收的流式布局
+    compile 'com.beloo.widget:ChipsLayoutManager:+'
+    //butterknife
+    compile 'com.jakewharton:butterknife:8.2.1'
+    apt 'com.jakewharton:butterknife-compiler:8.2.1'
+    //画廊效果广告页
+    compile 'com.github.pinguo-zhouwei:MZBannerView:v2.0.0'
+    //普通广告页
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    //加载图片
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    /**
+     * 配置依赖的图片框架
+     * 注意：作为示例，该库修改图片框架为Fresco，如果不想修改图片默认框架Glide，那么需要在这里指定依赖的Glide版本
+     */
+    compile 'com.facebook.fresco:fresco:1.3.0'
+
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
+    compile 'com.github.czy1121:loadinglayout:1.0.1'
+    compile 'com.github.mmin18:realtimeblurview:1.0.6'
+
+    compile 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
+    compile project(':Cardlibrary')
+
+    compile project(':CardGallylibrary')
+    compile 'com.zys:brokenview:+'
+
+//    compile 'com.ramotion.cardslider:card-slider:+'
+
+    //画廊
+    compile 'com.chenlittleping:recyclercoverflow:1.0.5'
+
+    //爆炸菜单
+    compile 'com.nightonke:boommenu:2.1.1'
+
+    //rc动画
+    compile 'jp.wasabeef:recyclerview-animators:2.2.7'
+
+    //蜂窝
+    compile 'com.github.chacojack:hivelayoutmanager:1.0.1'
+    //合成头像
+    compile 'com.github.stfalcon:multiimageview:0.1'
+
+    compile 'com.github.dongjunkun:CouponView:1.0.4'
+
+    compile project(':xrichtext')
+    compile project(':imagepicker')
+
+    //图片选择器 https://github.com/donglua/PhotoPicker
+    compile 'me.iwf.photopicker:PhotoPicker:0.8.4@aar'
+
+    compile 'io.reactivex:rxjava:+'
+    compile 'io.reactivex:rxandroid:+'
+
+    compile 'br.com.mauker.materialsearchview:materialsearchview:+'
+
+    compile 'com.github.clans:fab:1.6.4'
+
+    //3D地图
+//    compile 'com.amap.api:3dmap:latest.integration'
+    //2D地图
+//    compile 'com.amap.api:map2d:latest.integration'
+    //导航
+    compile 'com.amap.api:navi-3dmap:latest.integration'
+    //搜索
+    compile 'com.amap.api:search:latest.integration'
+    //定位
+    compile 'com.amap.api:location:latest.integration'
+
+//    compile 'co.lujun:androidtagview:+'
+    compile project(':androidtagview')
+    compile project(':netexpand')
+
+    compile 'com.romandanylyk:pageindicatorview:0.0.4'
+
+    compile 'com.jaredrummler:animated-svg-view:1.0.4'
+    //裁剪
+    compile 'com.yalantis:ucrop:2.2.0'
+    //水印
+    compile 'com.vinaygaba:rubberstamp:1.0.0'
+}

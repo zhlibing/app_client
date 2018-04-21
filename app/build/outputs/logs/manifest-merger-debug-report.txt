@@ -1,0 +1,524 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:2:1-168:12
+	package
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:12:5-67
+MERGED from [jameson.io.library:library:0.0.1] C:\Users\Administrator\.android\build-cache\da4576e19ceda7fb9e2573c161a133ac5f3ec23c\output\AndroidManifest.xml:11:5-67
+MERGED from [com.vise.xiaoyaoyou:xsnow:2.1.8] C:\Users\Administrator\.android\build-cache\53e786f74eeedbaa850245395a0e1936b2a4b95c\output\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:6:5-81
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:21:5-81
+MERGED from [jameson.io.library:library:0.0.1] C:\Users\Administrator\.android\build-cache\da4576e19ceda7fb9e2573c161a133ac5f3ec23c\output\AndroidManifest.xml:13:5-81
+MERGED from [com.vise.xiaoyaoyou:xsnow:2.1.8] C:\Users\Administrator\.android\build-cache\53e786f74eeedbaa850245395a0e1936b2a4b95c\output\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:7:5-80
+MERGED from [jameson.io.library:library:0.0.1] C:\Users\Administrator\.android\build-cache\da4576e19ceda7fb9e2573c161a133ac5f3ec23c\output\AndroidManifest.xml:12:5-80
+MERGED from [com.vise.xiaoyaoyou:xsnow:2.1.8] C:\Users\Administrator\.android\build-cache\53e786f74eeedbaa850245395a0e1936b2a4b95c\output\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:8:5-69
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:8:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:11:5-79
+MERGED from [com.vise.xiaoyaoyou:xsnow:2.1.8] C:\Users\Administrator\.android\build-cache\53e786f74eeedbaa850245395a0e1936b2a4b95c\output\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:11:5-76
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:15:5-76
+MERGED from [com.vise.xiaoyaoyou:viseutils:1.1.0] C:\Users\Administrator\.android\build-cache\9b7dbf644a1c4344129a89c94aea4e8f423ec7a6\output\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:12:5-75
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_SETTINGS
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:13:22-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:14:22-70
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:17:5-81
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:17:22-78
+application
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:19:5-166:19
+MERGED from [com.malinskiy:superrecyclerview:1.1.4] C:\Users\Administrator\.android\build-cache\f173606cb1533b45e70d59f4cc167e0dd4cd56f8\output\AndroidManifest.xml:12:5-20
+MERGED from [com.mikhaellopez:circularprogressbar:1.1.1] C:\Users\Administrator\.android\build-cache\63c8c5c11a92358b414b979b1f66a90b91797a5e\output\AndroidManifest.xml:12:5-20
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\Administrator\.android\build-cache\9d21046fd42e662708434134f8c1ef805188d8db\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\5221a1e98fbd7a4efd8dd28a0a7f57d95dafe748\output\AndroidManifest.xml:9:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-1] C:\Users\Administrator\.android\build-cache\0733ed2e80ada71c28bbb1e33955f78efc10d670\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-1] C:\Users\Administrator\.android\build-cache\e5a718e6b76b794981190cefa2211b209d2ddbe0\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:33:5-58:19
+MERGED from [com.github.zyyoona7:EasyPopup:1.0.2] C:\Users\Administrator\.android\build-cache\b3ac4fac82f5c3468780a2c2c2c58fcbc291b043\output\AndroidManifest.xml:11:5-15:19
+MERGED from [nl.dionsegijn:konfetti:1.1.1] C:\Users\Administrator\.android\build-cache\6a8a72bb82d075b553119e5abc22acda9de2c9b1\output\AndroidManifest.xml:11:5-53
+MERGED from [com.github.chenBingX:SuperTextView:v2.0.1] C:\Users\Administrator\.android\build-cache\0e15c8ada2f0a814ddebf06fad9627631a20feb4\output\AndroidManifest.xml:26:5-30:19
+MERGED from [com.haozhang.libary:android-slanted-textview:1.2] C:\Users\Administrator\.android\build-cache\871cfdd4e81e035b214f3922c8b8848347537d06\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.shellljx:TagViewGroup:v1.2] C:\Users\Administrator\.android\build-cache\f473e06db88ec3000b7a1b9a57892da74453139c\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.pinguo-zhouwei:MZBannerView:v2.0.0] C:\Users\Administrator\.android\build-cache\3851938c15f31a561bf7bc4c53f5e7bcac096525\output\AndroidManifest.xml:11:5-15:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.android\build-cache\829c0433d9995743114d5e3f434558948c116480\output\AndroidManifest.xml:9:5-20
+MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.android\build-cache\c5ecf82e7a1bdacf1ae6a2b94ed90e061dcfd9ad\output\AndroidManifest.xml:11:5-14:19
+MERGED from [CircleDemo:Cardlibrary:unspecified] F:\github\CircleDemo\CircleDemo\Cardlibrary\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [CircleDemo:CardGallylibrary:unspecified] F:\github\CircleDemo\CircleDemo\CardGallylibrary\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\123be6eecb5cca7391ef6a09c02d691646197f51\output\AndroidManifest.xml:26:5-20
+MERGED from [jameson.io.library:library:0.0.1] C:\Users\Administrator\.android\build-cache\da4576e19ceda7fb9e2573c161a133ac5f3ec23c\output\AndroidManifest.xml:15:5-19:19
+MERGED from [com.chenlittleping:recyclercoverflow:1.0.5] C:\Users\Administrator\.android\build-cache\872ddf2f031941af8b1569e620dcdec627be2696\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.nightonke:boommenu:2.1.1] C:\Users\Administrator\.android\build-cache\210f94877f01011ab2a1c29bda307ab301e3d01e\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.chacojack:hivelayoutmanager:1.0.1] C:\Users\Administrator\.android\build-cache\aa14d597ea33c0c6890bab6856867383ab9f5b0b\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.stfalcon:multiimageview:0.1] C:\Users\Administrator\.android\build-cache\2a69c0d8b662a1acd3eccaf40a9708a2a7fbeefd\output\AndroidManifest.xml:11:5-15:19
+MERGED from [CircleDemo:xrichtext:unspecified] F:\github\CircleDemo\CircleDemo\xrichtext\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [CircleDemo:imagepicker:unspecified] F:\github\CircleDemo\CircleDemo\imagepicker\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.oginotihiro:cropview:1.0.0] C:\Users\Administrator\.android\build-cache\b273173205c04d24c253452a8467a3ab20b88513\output\AndroidManifest.xml:11:5-15:19
+MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] C:\Users\Administrator\.android\build-cache\a663036608e3fcf74c8d7f9906439b634f2da8b1\output\AndroidManifest.xml:23:5-25:38
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\777ec3d3459997920cda433545147586b2fbeab0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\6404d40b8f3865fa064e4d14d5cb35584a63b97b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Administrator\.android\build-cache\6b23cd0ae7d79dbafd5bd364cf7d267b3a9b0a65\output\AndroidManifest.xml:12:5-20
+MERGED from [CircleDemo:androidtagview:unspecified] F:\github\CircleDemo\CircleDemo\androidtagview\build\intermediates\bundles\default\AndroidManifest.xml:11:5-12:19
+MERGED from [CircleDemo:netexpand:unspecified] F:\github\CircleDemo\CircleDemo\netexpand\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.vise.xiaoyaoyou:xsnow:2.1.8] C:\Users\Administrator\.android\build-cache\53e786f74eeedbaa850245395a0e1936b2a4b95c\output\AndroidManifest.xml:16:5-20:19
+MERGED from [com.vise.xiaoyaoyou:viselog:1.1.0] C:\Users\Administrator\.android\build-cache\b5722dc030131ef78562bb16332ddee4f26ef28a\output\AndroidManifest.xml:12:5-20
+MERGED from [com.romandanylyk:pageindicatorview:0.0.4] C:\Users\Administrator\.android\build-cache\66ec3569e3f8c36288efccd6c488ab68edd71a4d\output\AndroidManifest.xml:12:5-20
+MERGED from [com.vinaygaba:rubberstamp:1.0.0] C:\Users\Administrator\.android\build-cache\f06047f1a4836d29ca7b2dbe5f93853e74ebd7b8\output\AndroidManifest.xml:11:5-13:44
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\ed4fd8470528969dc6ca06a4802482568bc0ae4f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\1b0eb4c5880dc7ff77f59a6fa7f7d8a68dc9cd9a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\bf5955b5d88987097642ef00f13c1c732d96cb11\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\3010a62bf000e0bc3c801a59ad36bf2e8d9a66d0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\a82b8de2e8f219944fdc01b74115c6a8f4e8ed6a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\4a6ddc9fefa618ca78a3314578b33ba0cfb0ff51\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fcfb6686c643608354651557a463947189c98794\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\532e4e7d753546768cffbbc4f627bdd73d3c762b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\f79f14cd8b67947c8da8983e1776c0fa1f6a3ac0\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:23:9-41
+	android:supportsRtl
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:36:9-35
+	android:allowBackup
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:22:9-38
+	android:theme
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:24:9-40
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.zlb.memo.activity.SplashActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:26:9-33:20
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:27:13-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.zlb.memo.activity.MainActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:35:9-37:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:36:13-62
+activity#com.zlb.memo.activity.LoginActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:40:13-63
+activity#com.zlb.memo.activity.RegisterActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:43:9-45:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:44:13-66
+activity#com.zlb.memo.activity.ResetPasswordActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:48:13-71
+activity#com.zlb.memo.activity.CircleActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:52:13-64
+activity#com.zlb.memo.activity.NoteActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:56:13-62
+activity#com.zlb.memo.activity.NewActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:59:9-61:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:60:13-61
+activity#me.iwf.photopicker.PhotoPickerActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:63:9-65:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:64:13-66
+activity#me.iwf.photopicker.PhotoPagerActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:66:9-68:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:67:13-65
+activity#com.zlb.memo.activity.PublishActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:70:9-72:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:71:13-65
+activity#com.zlb.memo.activity.PublishPingYouActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:75:13-72
+activity#com.zlb.memo.activity.PublishPingYouEditActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:78:9-80:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:79:13-76
+activity#com.zlb.memo.activity.PublishPingYouEditIntruduceActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:83:13-85
+activity#com.zlb.memo.activity.PublishDaoyouActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:87:13-71
+activity#com.zlb.memo.activity.PublishDarenActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:90:9-92:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:92:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:91:13-70
+activity#com.zlb.memo.activity.PublishBoZhuActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:95:13-70
+activity#com.zlb.memo.activity.PublishLvXingZheActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:98:9-100:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:99:13-74
+activity#com.zlb.memo.activity.PublishShanghuActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:102:9-104:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:104:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:103:13-72
+activity#com.zlb.memo.activity.PublishYouHuiQuanActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:106:9-108:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:107:13-75
+activity#com.zlb.memo.activity.PublishPingYouDetailsActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:110:9-112:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:111:13-67
+activity#com.zlb.memo.activity.base.ActivityWebView
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:114:9-116:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:115:13-70
+activity#com.zlb.memo.activity.PersonDetailsActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:118:9-120:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:119:13-59
+activity#com.zlb.memo.activity.MyArticleDraftActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:122:9-124:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:123:13-60
+activity#com.zlb.memo.activity.PublishBozhuDetailsActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:126:9-128:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:128:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:127:13-65
+activity#com.zlb.memo.activity.PublishedBoZhuDetailsActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:130:9-132:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:131:13-67
+activity#com.zlb.memo.activity.MyPingYouDraftActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:134:9-136:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:135:13-60
+activity#com.zhuguangmama.imagepicker.ui.ImagePreviewActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:139:9-141:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:141:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:140:13-80
+activity#com.zhuguangmama.imagepicker.ui.ImagesGridActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:142:9-144:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:144:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:143:13-78
+activity#com.zhuguangmama.imagepicker.ui.ImageCropActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:145:9-147:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:147:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:146:13-77
+activity#com.zhuguangmama.imagepicker.ui.ImagePagerActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:149:9-151:52
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:150:13-78
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:153:9-156:71
+	android:screenOrientation
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:155:13-49
+	android:theme
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:156:13-69
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:154:13-60
+meta-data#com.zlb.memo.loader.MyGlideModule
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:158:9-160:43
+	android:value
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:160:13-40
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:159:13-61
+meta-data#com.amap.api.v2.apikey
+ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:162:9-164:64
+	android:value
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:164:13-61
+	android:name
+		ADDED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml:163:13-50
+uses-sdk
+INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.android\build-cache\9dc4fdd107bf120e38f61b0cbd6fc25283395193\output\AndroidManifest.xml:18:5-42
+MERGED from [com.malinskiy:superrecyclerview:1.1.4] C:\Users\Administrator\.android\build-cache\f173606cb1533b45e70d59f4cc167e0dd4cd56f8\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikhaellopez:circularprogressbar:1.1.1] C:\Users\Administrator\.android\build-cache\63c8c5c11a92358b414b979b1f66a90b91797a5e\output\AndroidManifest.xml:8:5-10:41
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\Administrator\.android\build-cache\9d21046fd42e662708434134f8c1ef805188d8db\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\5221a1e98fbd7a4efd8dd28a0a7f57d95dafe748\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.qmuiteam:qmui:1.1.2] C:\Users\Administrator\.android\build-cache\e9ef3e607586d8c017b0649225a661fa185caa4a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-1] C:\Users\Administrator\.android\build-cache\0733ed2e80ada71c28bbb1e33955f78efc10d670\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-1] C:\Users\Administrator\.android\build-cache\e5a718e6b76b794981190cefa2211b209d2ddbe0\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jpeng:JPTabBar:1.4.0] C:\Users\Administrator\.android\build-cache\31a8268e44c6dbd6c3f86cefbb734e453ac80184\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.florent37:longshadow:1.0.1] C:\Users\Administrator\.android\build-cache\dd0eab1c5b4a6c6632afc444ca0d84da5376550c\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.huburt-Hu:NewbieGuide:v1.2.3] C:\Users\Administrator\.android\build-cache\f7f86d519ba65e46c356e875f32c3bf98a18bfe4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.zyyoona7:EasyPopup:1.0.2] C:\Users\Administrator\.android\build-cache\b3ac4fac82f5c3468780a2c2c2c58fcbc291b043\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.addappcn:android-pickers:1.0.3] C:\Users\Administrator\.android\build-cache\11ace21712eb30f53babe8c9a746fb33c9ab74b6\output\AndroidManifest.xml:8:5-10:41
+MERGED from [nl.dionsegijn:konfetti:1.1.1] C:\Users\Administrator\.android\build-cache\6a8a72bb82d075b553119e5abc22acda9de2c9b1\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chenBingX:SuperTextView:v2.0.1] C:\Users\Administrator\.android\build-cache\0e15c8ada2f0a814ddebf06fad9627631a20feb4\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.haozhang.libary:android-slanted-textview:1.2] C:\Users\Administrator\.android\build-cache\871cfdd4e81e035b214f3922c8b8848347537d06\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wanjian:cockroach:0.0.5] C:\Users\Administrator\.android\build-cache\384b1af34c30dbc629ad38c7dfb3f699364f273f\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.florent37:diagonallayout:1.0.7] C:\Users\Administrator\.android\build-cache\c34f8a4e26068f008bc8679278f5e0a2601e5748\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.shellljx:TagViewGroup:v1.2] C:\Users\Administrator\.android\build-cache\f473e06db88ec3000b7a1b9a57892da74453139c\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.florent37:arclayout:1.0.1] C:\Users\Administrator\.android\build-cache\586be1a0ac157267de608ecad5d7ea830650c31c\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\Administrator\.android\build-cache\b734c8917a9e30a6696976d2db3fd6a153e3bed5\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton:butterknife:8.2.1] C:\Users\Administrator\.android\build-cache\582e62638d1799502c1ec09114dc84892a460b25\output\AndroidManifest.xml:5:5-43
+MERGED from [com.github.pinguo-zhouwei:MZBannerView:v2.0.0] C:\Users\Administrator\.android\build-cache\3851938c15f31a561bf7bc4c53f5e7bcac096525\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bigkoo:convenientbanner:2.0.5] C:\Users\Administrator\.android\build-cache\3fa3c289dace38701f60a3300cac386006a987d8\output\AndroidManifest.xml:7:5-44
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\Administrator\.android\build-cache\15efe22a85d1568d31fb2e9e79c78bf9f0f9fc54\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Administrator\.android\build-cache\8ff91ea78f03dffff77466f6d16ddbff20558da6\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Administrator\.android\build-cache\6d8ce2c251a13b4a989c4643a78d3cb1ef8f8a45\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Administrator\.android\build-cache\1437c406499839247a7439e84500e2b96ba53cf7\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Administrator\.android\build-cache\2281abc9e4e76e87ec937e7bc9bda68046ab74bf\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Administrator\.android\build-cache\52da36b0863b5d6895ffa3901856309fddfc19e8\output\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.android\build-cache\829c0433d9995743114d5e3f434558948c116480\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22] C:\Users\Administrator\.android\build-cache\ecf135a19f9fbe4e090c81510e004404ca12aeef\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.czy1121:loadinglayout:1.0.1] C:\Users\Administrator\.android\build-cache\e4a3253fdd08b1c6b156ad8d52c61ca027478a4a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mmin18:realtimeblurview:1.0.6] C:\Users\Administrator\.android\build-cache\992fe7348260ae9c3328c50d886e868778515997\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.android\build-cache\c5ecf82e7a1bdacf1ae6a2b94ed90e061dcfd9ad\output\AndroidManifest.xml:7:5-9:41
+MERGED from [CircleDemo:Cardlibrary:unspecified] F:\github\CircleDemo\CircleDemo\Cardlibrary\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [CircleDemo:CardGallylibrary:unspecified] F:\github\CircleDemo\CircleDemo\CardGallylibrary\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\123be6eecb5cca7391ef6a09c02d691646197f51\output\AndroidManifest.xml:20:5-43
+MERGED from [jameson.io.library:library:0.0.1] C:\Users\Administrator\.android\build-cache\da4576e19ceda7fb9e2573c161a133ac5f3ec23c\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zys:brokenview:1.0.3] C:\Users\Administrator\.android\build-cache\8e9e36f529f5115e108c21bf5984856d372521d6\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.chenlittleping:recyclercoverflow:1.0.5] C:\Users\Administrator\.android\build-cache\872ddf2f031941af8b1569e620dcdec627be2696\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.nightonke:boommenu:2.1.1] C:\Users\Administrator\.android\build-cache\210f94877f01011ab2a1c29bda307ab301e3d01e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.7] C:\Users\Administrator\.android\build-cache\bb52ff99609e516f8cee244c0ef933dfbca2ce32\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chacojack:hivelayoutmanager:1.0.1] C:\Users\Administrator\.android\build-cache\aa14d597ea33c0c6890bab6856867383ab9f5b0b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.stfalcon:multiimageview:0.1] C:\Users\Administrator\.android\build-cache\2a69c0d8b662a1acd3eccaf40a9708a2a7fbeefd\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dongjunkun:CouponView:1.0.4] C:\Users\Administrator\.android\build-cache\cbc7090f46545c37b6c958c4a7d281bb33d784f1\output\AndroidManifest.xml:7:5-9:41
+MERGED from [CircleDemo:xrichtext:unspecified] F:\github\CircleDemo\CircleDemo\xrichtext\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [CircleDemo:imagepicker:unspecified] F:\github\CircleDemo\CircleDemo\imagepicker\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.oginotihiro:cropview:1.0.0] C:\Users\Administrator\.android\build-cache\b273173205c04d24c253452a8467a3ab20b88513\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:1.3.0] C:\Users\Administrator\.android\build-cache\c43dca9a95de5082dfcf5947c106f492214ac1b3\output\AndroidManifest.xml:8:5-10:41
+MERGED from [me.iwf.photopicker:PhotoPicker:0.8.4] C:\Users\Administrator\.android\build-cache\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\output\AndroidManifest.xml:8:5-10:41
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.android\build-cache\b54f31c4b8a54d9fd3ce290476ec8429433df06e\output\AndroidManifest.xml:19:5-43
+MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] C:\Users\Administrator\.android\build-cache\a663036608e3fcf74c8d7f9906439b634f2da8b1\output\AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\777ec3d3459997920cda433545147586b2fbeab0\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\a03c5e548595670f507a0d14b9fe77403dd541af\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\6404d40b8f3865fa064e4d14d5cb35584a63b97b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Administrator\.android\build-cache\6b23cd0ae7d79dbafd5bd364cf7d267b3a9b0a65\output\AndroidManifest.xml:8:5-10:41
+MERGED from [CircleDemo:androidtagview:unspecified] F:\github\CircleDemo\CircleDemo\androidtagview\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [CircleDemo:netexpand:unspecified] F:\github\CircleDemo\CircleDemo\netexpand\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.vise.xiaoyaoyou:xsnow:2.1.8] C:\Users\Administrator\.android\build-cache\53e786f74eeedbaa850245395a0e1936b2a4b95c\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.vise.xiaoyaoyou:viseutils:1.1.0] C:\Users\Administrator\.android\build-cache\9b7dbf644a1c4344129a89c94aea4e8f423ec7a6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.vise.xiaoyaoyou:viselog:1.1.0] C:\Users\Administrator\.android\build-cache\b5722dc030131ef78562bb16332ddee4f26ef28a\output\AndroidManifest.xml:8:5-10:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.android\build-cache\8a556b804e44290074acc5693b8e05c8c1afcc2f\output\AndroidManifest.xml:19:5-43
+MERGED from [com.romandanylyk:pageindicatorview:0.0.4] C:\Users\Administrator\.android\build-cache\66ec3569e3f8c36288efccd6c488ab68edd71a4d\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jaredrummler:animated-svg-view:1.0.4] C:\Users\Administrator\.android\build-cache\7d42ed33290d63626eef5939d6cc633f313bc6e2\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.yalantis:ucrop:2.2.0] C:\Users\Administrator\.android\build-cache\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.vinaygaba:rubberstamp:1.0.0] C:\Users\Administrator\.android\build-cache\f06047f1a4836d29ca7b2dbe5f93853e74ebd7b8\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\ed4fd8470528969dc6ca06a4802482568bc0ae4f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\1b0eb4c5880dc7ff77f59a6fa7f7d8a68dc9cd9a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\bf5955b5d88987097642ef00f13c1c732d96cb11\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\3010a62bf000e0bc3c801a59ad36bf2e8d9a66d0\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\a82b8de2e8f219944fdc01b74115c6a8f4e8ed6a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\4a6ddc9fefa618ca78a3314578b33ba0cfb0ff51\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fcfb6686c643608354651557a463947189c98794\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\532e4e7d753546768cffbbc4f627bdd73d3c762b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\f79f14cd8b67947c8da8983e1776c0fa1f6a3ac0\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\777ec3d3459997920cda433545147586b2fbeab0\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\github\CircleDemo\CircleDemo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:17:5-83
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:17:22-80
+uses-permission#android.permission.VIBRATE
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:25:5-69
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:25:22-66
+uses-permission#android.permission.CAMERA
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:27:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:29:5-60
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:29:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:31:5-70
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:31:19-67
+activity#com.vondear.rxtools.activity.ActivityWebView
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:37:9-41:20
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:37:19-78
+intent-filter#android.intent.category.DEFAULT
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:38:13-40:29
+category#android.intent.category.DEFAULT
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:39:27-73
+activity#com.vondear.rxtools.activity.ActivityBase
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:42:9-43:20
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:42:19-75
+activity#com.vondear.rxtools.activity.ActivityScanerCode
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:44:9-45:20
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:44:19-81
+activity#com.vondear.rxtools.activity.ActivityCodeTool
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:46:9-47:20
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:46:19-79
+provider#android.support.v4.content.FileProvider
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:49:9-57:20
+	android:authorities
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:51:13-64
+	android:grantUriPermissions
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:53:13-47
+	android:exported
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:50:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:54:13-56:54
+	android:resource
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:56:17-51
+	android:name
+		ADDED from [com.github.vondear:RxTools:v1.7.8.3] C:\Users\Administrator\.android\build-cache\7a7084541774da49d0f3860454d15139154d7dab\output\AndroidManifest.xml:55:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\123be6eecb5cca7391ef6a09c02d691646197f51\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\777ec3d3459997920cda433545147586b2fbeab0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\a03c5e548595670f507a0d14b9fe77403dd541af\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\6404d40b8f3865fa064e4d14d5cb35584a63b97b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\ed4fd8470528969dc6ca06a4802482568bc0ae4f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\1b0eb4c5880dc7ff77f59a6fa7f7d8a68dc9cd9a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\bf5955b5d88987097642ef00f13c1c732d96cb11\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\3010a62bf000e0bc3c801a59ad36bf2e8d9a66d0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\a82b8de2e8f219944fdc01b74115c6a8f4e8ed6a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\4a6ddc9fefa618ca78a3314578b33ba0cfb0ff51\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fcfb6686c643608354651557a463947189c98794\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\532e4e7d753546768cffbbc4f627bdd73d3c762b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\f79f14cd8b67947c8da8983e1776c0fa1f6a3ac0\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\123be6eecb5cca7391ef6a09c02d691646197f51\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\123be6eecb5cca7391ef6a09c02d691646197f51\output\AndroidManifest.xml:23:9-47
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from [com.vise.xiaoyaoyou:viseutils:1.1.0] C:\Users\Administrator\.android\build-cache\9b7dbf644a1c4344129a89c94aea4e8f423ec7a6\output\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from [com.vise.xiaoyaoyou:viseutils:1.1.0] C:\Users\Administrator\.android\build-cache\9b7dbf644a1c4344129a89c94aea4e8f423ec7a6\output\AndroidManifest.xml:12:22-72

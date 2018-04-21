@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\__picker_menu_picker.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\menu\\__picker_menu_picker.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_new.xml",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\src\\main\\res\\menu\\menu_new.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\ucrop_menu_activity.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a33e831c665cfd020dd1f8ad3a889705d8a3b47e\\output\\res\\menu\\ucrop_menu_activity.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\__picker_menu_preview.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f29670d4d99b7fb8020cc49423f2b7ac035aa4ce\\output\\res\\menu\\__picker_menu_preview.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_all_images.xml",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\imagepicker\\build\\intermediates\\bundles\\default\\res\\menu\\menu_all_images.xml"
+    },
+    {
+        "merged": "F:\\github\\CircleDemo\\CircleDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_note.xml",
+        "source": "F:\\github\\CircleDemo\\CircleDemo\\app\\src\\main\\res\\menu\\menu_note.xml"
+    }
+]
