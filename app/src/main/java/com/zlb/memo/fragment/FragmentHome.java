@@ -99,24 +99,28 @@ public class FragmentHome extends BaseFragment implements OnRefreshLoadmoreListe
                 C.home_state = index;
                 switch (index) {
                     case 0:
+                        toolbar.setTitle("拼游");
                         key = "0";
                         pageNumber = 1;
                         recyclerView.setLayoutManager(new LinearLayoutManager(context));
                         refreshLayoutHome.autoRefresh();
                         break;
                     case 1:
+                        toolbar.setTitle("博主");
                         key = "1";
                         pageNumber = 1;
                         recyclerView.setLayoutManager(new LinearLayoutManager(context));
                         refreshLayoutHome.autoRefresh();
                         break;
                     case 2:
+                        toolbar.setTitle("达人");
                         key = "2";
                         pageNumber = 1;
                         recyclerView.setLayoutManager(new LinearLayoutManager(context));
                         refreshLayoutHome.autoRefresh();
                         break;
                     case 3:
+                        toolbar.setTitle("导游");
                         key = "3";
                         pageNumber = 1;
 //                        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
@@ -124,18 +128,21 @@ public class FragmentHome extends BaseFragment implements OnRefreshLoadmoreListe
                         refreshLayoutHome.autoRefresh();
                         break;
                     case 4:
+                        toolbar.setTitle("旅行");
                         key = "4";
                         pageNumber = 1;
                         recyclerView.setLayoutManager(new LinearLayoutManager(context));
                         refreshLayoutHome.autoRefresh();
                         break;
                     case 5:
+                        toolbar.setTitle("场主");
                         key = "5";
                         pageNumber = 1;
                         recyclerView.setLayoutManager(new LinearLayoutManager(context));
                         refreshLayoutHome.autoRefresh();
                         break;
                     case 6:
+                        toolbar.setTitle("有券");
                         key = "6";
                         pageNumber = 1;
                         recyclerView.setLayoutManager(new LinearLayoutManager(context));
