@@ -72,7 +72,7 @@ public class MainActivity extends BaseActivity implements BadgeDismissListener, 
         //显示圆点模式的徽章
         //设置Badge消失的代理
         tabbar.setTabListener(this);
-        tabbar.setUseScrollAnimate(true);
+//        tabbar.setUseScrollAnimate(true);
 
         initScreen();
     }
@@ -99,6 +99,11 @@ public class MainActivity extends BaseActivity implements BadgeDismissListener, 
 
     @Override
     public void onTabSelect(int index) {
+    }
+
+    @Override
+    public boolean onInterruptSelect(int index) {
+        return false;
     }
 
 
