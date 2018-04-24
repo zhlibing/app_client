@@ -20,6 +20,6 @@ android {
 
 dependencies {
     //网络请求框架
-    compile 'com.vise.xiaoyaoyou:xsnow:2.1.2'
+    compile 'com.vise.xiaoyaoyou:xsnow:2+'
     provided 'com.android.support:support-annotations:25+'
 }

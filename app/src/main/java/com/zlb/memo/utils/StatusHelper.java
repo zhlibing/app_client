@@ -4,10 +4,10 @@ import android.content.Context;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.vise.xsnow.ui.status.OnRetryListener;
-import com.vise.xsnow.ui.status.OnStatusViewListener;
-import com.vise.xsnow.ui.status.StatusLayoutManager;
 import com.zlb.memo.R;
+import com.zlb.memo.ui.status.OnRetryListener;
+import com.zlb.memo.ui.status.OnStatusViewListener;
+import com.zlb.memo.ui.status.StatusLayoutManager;
 
 import static com.vise.utils.handler.HandlerUtil.runOnUiThread;
 
