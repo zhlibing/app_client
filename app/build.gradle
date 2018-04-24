@@ -42,6 +42,7 @@ android {
         exclude 'META-INF/LICENSE'
         exclude 'META-INF/NOTICE'
         exclude 'META-INF/rxjava.properties'
+        exclude 'META-INF/DEPENDENCIES'  //这里找到你自己错的那行，把Duplicate files copied in APK后面的复制上来
     }
 
     repositories {
