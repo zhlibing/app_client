@@ -31,7 +31,6 @@ import butterknife.OnClick;
 
 /**
  * 登陆
- * Created by wp on 2017/3/27.
  */
 
 public class LoginActivity extends BaseActivity implements LoginResultView {
