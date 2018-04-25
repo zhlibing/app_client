@@ -39,6 +39,10 @@ public class PublishBase implements Serializable {
     private String useLocation;
     private String useTime;
 
+    public PublishBase(String type) {
+        this.type = type;
+    }
+
     public String getTags() {
         return tags;
     }

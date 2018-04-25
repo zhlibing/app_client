@@ -186,11 +186,11 @@ public class PersonDetailsActivity extends BaseActivity implements OnRefreshLoad
      * 模拟数据
      */
     private Collection<PublishBase> loadModels(String key) {
-        return Arrays.asList(new PublishBase()
-                , new PublishBase()
-                , new PublishBase()
-                , new PublishBase()
-                , new PublishBase()
+        return Arrays.asList(new PublishBase("PINGYOU")
+                , new PublishBase("DAREN")
+                , new PublishBase("DAOYOU")
+                , new PublishBase("LVXINGZHE")
+                , new PublishBase("SHANGHU")
         );
     }
 }

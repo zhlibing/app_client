@@ -91,7 +91,8 @@ public class HomeTouristAdapterRefresh extends BaseRefreshRecyclerAdapter<Publis
             TextView tv_name = holder.getView(R.id.tv_name);
             TextView tv_detail = holder.getView(R.id.tv_detail);
             SlantedTextView tv_tag = holder.getView(R.id.tv_tag);
-            if (Float.parseFloat(model.getPoiList().get(0).getDistance()) > 50) {
+            if (model.getPoiList()!=null&&model.getPoiList().get(0)!=null&&
+                    Float.parseFloat(model.getPoiList().get(0).getDistance()) > 50) {
                 tv_tag.setVisibility(View.VISIBLE);
                 tv_tag.setText("跨市区");
             } else {
