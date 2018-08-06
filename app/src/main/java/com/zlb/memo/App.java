@@ -14,13 +14,11 @@ import com.zlb.memo.overall.Log;
 import com.zlb.memo.overall.Net;
 
 public class App extends MultiDexApplication {
-    static App app;
     private static Context mContext;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        app = this;
         mContext = getApplicationContext();
         RxTool.init(this);
         Log.initLog();
@@ -31,11 +29,6 @@ public class App extends MultiDexApplication {
         MultiDex.install(this);
 
         //LeakCanary.install(this);
-//        QPManager.getInstance(getApplicationContext()).initRecord();
-    }
-
-    public static App getInstance() {
-        return app;
     }
 
     public static Context getContext() {

@@ -105,12 +105,12 @@ public class ImageUtil {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        Glide.get(App.getInstance()).clearDiskCache();
+                        Glide.get(App.getContext()).clearDiskCache();
 
                     }
                 }).start();
             } else {
-                Glide.get(App.getInstance()).clearDiskCache();
+                Glide.get(App.getContext()).clearDiskCache();
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -124,7 +124,7 @@ public class ImageUtil {
      */
     public static String getCacheSize() {
         try {
-            return getFormatSize(getFolderSize(Glide.getPhotoCacheDir(App.getInstance())));
+            return getFormatSize(getFolderSize(Glide.getPhotoCacheDir(App.getContext())));
         } catch (Exception e) {
             e.printStackTrace();
         }

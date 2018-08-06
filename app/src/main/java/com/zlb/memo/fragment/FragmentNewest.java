@@ -9,7 +9,6 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,14 +16,12 @@ import android.view.ViewGroup;
 import com.bigkoo.convenientbanner.ConvenientBanner;
 import com.bigkoo.convenientbanner.holder.CBViewHolderCreator;
 import com.bigkoo.convenientbanner.listener.OnItemClickListener;
-import com.github.mmin18.widget.RealtimeBlurView;
 import com.zlb.memo.R;
 import com.zlb.memo.activity.base.ActivityWebView;
 import com.zlb.memo.adapter.ServiceFragmentAdvHolder;
 import com.zlb.memo.bean.TestModel;
 import com.zlb.memo.fragment.base.BaseFragment;
 import com.zlb.memo.fragment.base.SmartFragment;
-import com.zlb.memo.utils.StatusBarUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,10 +46,6 @@ public class FragmentNewest extends BaseFragment {
     ViewPager viewPager;
     @BindView(R.id.main_content)
     CoordinatorLayout mainContent;
-    @BindView(R.id.blurview)
-    RealtimeBlurView blurview;
-    @BindView(R.id.toolbar)
-    Toolbar toolbar;
 
     private List<Fragment> fragments = new ArrayList<>();
     private List<String> titles = new ArrayList<>();
@@ -62,7 +55,6 @@ public class FragmentNewest extends BaseFragment {
     protected View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_newest, container, false);
         ButterKnife.bind(this, view);
-
         fragments.add(new FragmentBozhu());
         fragments.add(new FragmentDaren());
         fragments.add(new SmartFragment(1));
@@ -71,11 +63,6 @@ public class FragmentNewest extends BaseFragment {
         titles.add("关注动态");
         viewPager.setAdapter(new SmartPagerAdapter());
         tableLayout.setupWithViewPager(viewPager, true);
-
-        StatusBarUtil.setPaddingSmart(context, blurview);
-        StatusBarUtil.setPaddingSmart(context, mainContent);
-        StatusBarUtil.setPaddingSmart(context, toolbar);
-
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {

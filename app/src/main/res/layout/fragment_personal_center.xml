@@ -4,20 +4,19 @@
     android:id="@+id/rf_personal_center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:srlAccentColor="@android:color/white"
-    app:srlDragRate="0.7"
-    app:srlEnableAutoLoadmore="true"
-    app:srlEnablePreviewInEditMode="true"
-    app:srlEnablePureScrollMode="true"
-    app:srlHeaderHeight="150dp"
-    app:srlHeaderMaxDragRate="1.3"
-    app:srlHeaderTriggerRate="0.5"
+    app:srlAccentColor="@color/white"
+    app:srlEnableLoadmore="false"
     app:srlPrimaryColor="@color/colorPrimary">
+
+    <com.scwang.smartrefresh.header.FunGameBattleCityHeader
+        android:id="@+id/tau_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rc_personal_center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:overScrollMode="never"></android.support.v7.widget.RecyclerView>
+        android:overScrollMode="never" />
 
 </com.scwang.smartrefresh.layout.SmartRefreshLayout>

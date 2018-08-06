@@ -19,14 +19,12 @@ import butterknife.ButterKnife;
 public abstract class BaseActivity extends AppCompatActivity {
     protected String TAG = getClass().getSimpleName();
     protected Context mContext;
-    protected App app;
     private RxDialogLoading dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mContext = this;
-        app = App.getInstance();
         RxActivityTool.addActivity(this);
         if (isRegisterEvent()) {
             BusManager.getBus().register(this);

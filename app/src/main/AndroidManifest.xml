@@ -135,6 +135,18 @@
             android:name=".activity.MyPingYouDraftActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".activity.DetailsDarenActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.DetailsPingyouActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.PuzzleActivity"
+            android:screenOrientation="portrait" />
+
         <!--imagepicker 必须要添加的界面-->
         <activity
             android:name="com.zhuguangmama.imagepicker.ui.ImagePreviewActivity"

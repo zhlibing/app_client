@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Layout;
@@ -18,11 +19,15 @@ import android.widget.TextView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.haozhang.lib.SlantedTextView;
+import com.vondear.rxtools.RxActivityTool;
 import com.vondear.rxtools.RxTextTool;
 import com.vondear.rxtools.model.ModelSpider;
 import com.vondear.rxtools.view.likeview.RxShineButton;
 import com.zhuguangmama.imagepicker.ui.ImagePagerActivity;
 import com.zlb.memo.R;
+import com.zlb.memo.activity.CircleActivity;
+import com.zlb.memo.activity.DetailsDarenActivity;
+import com.zlb.memo.activity.DetailsPingyouActivity;
 import com.zlb.memo.activity.PublishedBoZhuDetailsActivity;
 import com.zlb.memo.adapter.refeshRecycle.BaseRefreshRecyclerAdapter;
 import com.zlb.memo.adapter.refeshRecycle.BaseRefreshViewHolder;
@@ -83,6 +88,7 @@ public class HomeTouristAdapterRefresh extends BaseRefreshRecyclerAdapter<Publis
     @Override
     protected void onBindViewHolder(BaseRefreshViewHolder holder, final PublishBase model, int position) {
         if (holder.getItemViewType() == 0) {
+            CardView cardView = holder.getView(R.id.cardView);
             ImageView img_cover = holder.getView(R.id.img_cover);
             CircleImageView img_avatar = holder.getView(R.id.img_avatar);
             TextView tv_nickname = holder.getView(R.id.tv_nickname);
@@ -147,6 +153,14 @@ public class HomeTouristAdapterRefresh extends BaseRefreshRecyclerAdapter<Publis
             builder.append(model.getPoiList().get(model.getPoiList().size() - 1).getKeyword()).setClickSpan(clickableSpan)
                     .append("图片").setResourceId(R.drawable.normal_zhongdian_blue);
             builder.into(tv_detail);
+            cardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Bundle b = new Bundle();
+                    b.putSerializable("MODEL", model);
+                    RxActivityTool.skipActivity(context, DetailsPingyouActivity.class, b);
+                }
+            });
         } else if (holder.getItemViewType() == 1) {
             RecyclerView rc_members = holder.getView(R.id.rc_photo);
             rc_members.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false));
@@ -171,6 +185,7 @@ public class HomeTouristAdapterRefresh extends BaseRefreshRecyclerAdapter<Publis
             });
         } else if (holder.getItemViewType() == 2) {
             TextView tv_content = holder.getView(R.id.tv_content);
+            CardView cardView = holder.getView(R.id.cardView);
             tv_content.setText(model.getContentDetails());
             MultiImageView multiImagView = holder.getView(R.id.multiImagView);
             final List<PhotoInfo> photoInfos = new ArrayList<>();
@@ -189,13 +204,30 @@ public class HomeTouristAdapterRefresh extends BaseRefreshRecyclerAdapter<Publis
                     ImagePagerActivity.startImagePagerActivity(context, photoUrls, position, imageSize);
                 }
             });
+            cardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Bundle b = new Bundle();
+                    b.putSerializable("MODEL", model);
+                    RxActivityTool.skipActivity(context, DetailsDarenActivity.class, b);
+                }
+            });
         } else if (holder.getItemViewType() == 3) {
             RxCobwebView rxCobwebView = holder.getView(R.id.cobweb_view);
+            CardView cardView = holder.getView(R.id.cardView);
             List<ModelSpider> modelSpiders = new ArrayList<>();
             for (int i = 0; i < 7; i++) {
                 modelSpiders.add(new ModelSpider(C.GuideTags.get(i), 1 + new Random().nextInt(rxCobwebView.getSpiderMaxLevel())));
             }
             rxCobwebView.setSpiderList(modelSpiders);
+            cardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Bundle b = new Bundle();
+                    b.putSerializable("MODEL", model);
+                    RxActivityTool.skipActivity(context, CircleActivity.class, b);
+                }
+            });
         } else if (holder.getItemViewType() == 4) {
 
         } else if (holder.getItemViewType() == 5) {

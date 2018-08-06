@@ -8,13 +8,12 @@
     <android.support.design.widget.CoordinatorLayout
         android:id="@+id/main_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="?attr/actionBarSize">
+        android:layout_height="match_parent">
 
         <android.support.design.widget.AppBarLayout
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
-            android:layout_height="200dp">
+            android:layout_height="wrap_content">
 
             <com.bigkoo.convenientbanner.ConvenientBanner
                 android:id="@+id/convenient"
@@ -26,9 +25,9 @@
             <android.support.design.widget.TabLayout
                 android:id="@+id/tableLayout"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentBottom="true"
+                android:layout_height="50dp"
                 android:background="@color/blur_default"
+                android:paddingTop="@dimen/dp_10"
                 app:tabIndicatorColor="@color/colorPrimaryDark"
                 app:tabSelectedTextColor="@color/colorPrimary"
                 app:tabTextColor="@color/colorTextAssistant" />
@@ -42,19 +41,5 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     </android.support.design.widget.CoordinatorLayout>
-
-    <com.github.mmin18.widget.RealtimeBlurView
-        android:id="@+id/blurview"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:visibility="visible" />
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        style="@style/AppTheme.Toolbar.Light"
-        android:background="@android:color/transparent"
-        app:title="@string/home_2">
-
-    </android.support.v7.widget.Toolbar>
 
 </FrameLayout>

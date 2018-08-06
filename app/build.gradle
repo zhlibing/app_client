@@ -94,7 +94,7 @@ dependencies {
     compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-1'//没有使用特殊Header，可以不加这行
 //    compile 'com.scwang.smartrefresh:SmartRefreshFooter:+'//没有使用特殊Header，可以不加这行
     //工具框架
-    compile 'com.github.vondear:RxTools:v1.+'//请替换成上方 JitPack 最新的版本号
+    compile 'com.github.vondear:RxTools:v1.7.6.2'//请替换成上方 JitPack 最新的版本号
     //底部tab框架
     compile 'com.jpeng:JPTabBar:1.+'
     //view添加阴影

@@ -13,8 +13,11 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
+import com.vondear.rxtools.RxActivityTool;
 import com.zhuguangmama.imagepicker.ui.ImagePagerActivity;
 import com.zlb.memo.R;
+import com.zlb.memo.activity.DetailsDarenActivity;
+import com.zlb.memo.activity.PuzzleActivity;
 import com.zlb.memo.adapter.HomeTravelsPhotoItemAdapter;
 import com.zlb.memo.adapter.refeshRecycle.BaseRefreshRecyclerAdapter;
 import com.zlb.memo.adapter.refeshRecycle.BaseRefreshViewHolder;
@@ -83,12 +86,15 @@ public class SmartFragment extends Fragment {
                         multiImagView.setOnItemClickListener(new MultiImageViewForStaggeredGrid.OnItemClickListener() {
                             @Override
                             public void onItemClick(View view, int position) {
-                                ImagePagerActivity.ImageSize imageSize = new ImagePagerActivity.ImageSize(view.getMeasuredWidth(), view.getMeasuredHeight());
-                                List<String> photoUrls = new ArrayList<String>();
-                                for (PhotoInfo photoInfo : photoInfos) {
-                                    photoUrls.add(photoInfo.url);
-                                }
-                                ImagePagerActivity.startImagePagerActivity(getActivity(), photoUrls, position, imageSize);
+//                                ImagePagerActivity.ImageSize imageSize = new ImagePagerActivity.ImageSize(view.getMeasuredWidth(), view.getMeasuredHeight());
+//                                List<String> photoUrls = new ArrayList<String>();
+//                                for (PhotoInfo photoInfo : photoInfos) {
+//                                    photoUrls.add(photoInfo.url);
+//                                }
+//                                ImagePagerActivity.startImagePagerActivity(getActivity(), photoUrls, position, imageSize);
+                                Bundle b = new Bundle();
+                                b.putSerializable("MODEL", photoInfos.get(position));
+                                RxActivityTool.skipActivity(getActivity(), PuzzleActivity.class, b);
                             }
                         });
                     }
