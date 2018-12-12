@@ -31,5 +31,8 @@
     <dimen name="textsize_title">17sp</dimen>
     <dimen name="textsize_titlelarge">19sp</dimen>
     <dimen name="textsize_titlebar">20sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
 
 </resources>

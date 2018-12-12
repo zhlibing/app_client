@@ -78,12 +78,12 @@
                     android:textColor="@color/white"
                     android:textSize="@dimen/sp_14"
                     android:visibility="gone"
-                    app:corner="5dp"
-                    app:left_bottom_corner="true"
-                    app:left_top_corner="true"
-                    app:right_bottom_corner="true"
-                    app:right_top_corner="true"
-                    app:solid="@color/colorAccent" />
+                    app:stv_corner="5dp"
+                    app:stv_left_bottom_corner="true"
+                    app:stv_left_top_corner="true"
+                    app:stv_right_bottom_corner="true"
+                    app:stv_right_top_corner="true"
+                    app:stv_solid="@color/colorAccent" />
 
                 <ImageView
                     android:id="@+id/img_is_web"
@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="@dimen/padding_common_d"
-                    android:src="@drawable/qmui_icon_checkbox_normal" />
+                    android:src="@drawable/default_check" />
             </RelativeLayout>
 
             <RelativeLayout

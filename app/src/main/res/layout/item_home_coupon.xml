@@ -134,7 +134,7 @@
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:text="指定园区可用 使用后立减88元"
-                android:textColor="@color/goldenrod"
+                android:textColor="@color/google_red"
                 android:textSize="@dimen/sp_14" />
 
             <com.coorchice.library.SuperTextView
@@ -150,18 +150,18 @@
                 android:text="赠一得一"
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp_14"
-                app:corner="2dp"
-                app:left_bottom_corner="true"
-                app:left_top_corner="true"
-                app:right_bottom_corner="true"
-                app:right_top_corner="true"
-                app:shaderEnable="true"
-                app:shaderEndColor="@color/gold"
-                app:shaderMode="rightToLeft"
-                app:shaderStartColor="@color/colorAccent"
-                app:solid="@color/colorAccent"
-                app:stroke_color="@color/colorAccent"
-                app:stroke_width="0dp" />
+                app:stv_corner="2dp"
+                app:stv_left_bottom_corner="true"
+                app:stv_left_top_corner="true"
+                app:stv_right_bottom_corner="true"
+                app:stv_right_top_corner="true"
+                app:stv_shaderEnable="true"
+                app:stv_shaderEndColor="@color/gold"
+                app:stv_shaderMode="rightToLeft"
+                app:stv_shaderStartColor="@color/colorAccent"
+                app:stv_solid="@color/colorAccent"
+                app:stv_stroke_color="@color/colorAccent"
+                app:stv_stroke_width="0dp" />
         </RelativeLayout>
 
     </LinearLayout>

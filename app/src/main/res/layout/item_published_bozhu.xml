@@ -31,7 +31,6 @@
             android:layout_toRightOf="@+id/img_avatar"
             android:maxLength="6"
             android:text="小花花漂亮话"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorTextTitle" />
 
         <TextView
@@ -48,7 +47,6 @@
             android:gravity="center_vertical"
             android:singleLine="true"
             android:text="标标题标题标题标题题"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorTextContent"
             android:textSize="@dimen/sp_14" />
 
@@ -71,7 +69,6 @@
             android:ellipsize="end"
             android:singleLine="true"
             android:text="内容内容内容内容内容内容内容内内容容内容内容内容内容内容内容内容内容内容内容内容"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorTextAssistant"
             android:textSize="@dimen/sp_14" />
 
@@ -109,12 +106,12 @@
                 android:text="9张"
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp_16"
-                app:corner="20dp"
-                app:left_bottom_corner="true"
-                app:left_top_corner="true"
-                app:right_bottom_corner="true"
-                app:right_top_corner="true"
-                app:solid="@color/transparentBlank_8" />
+                app:stv_corner="20dp"
+                app:stv_left_bottom_corner="true"
+                app:stv_left_top_corner="true"
+                app:stv_right_bottom_corner="true"
+                app:stv_right_top_corner="true"
+                app:stv_solid="@color/transparentBlank_8" />
         </com.zlb.memo.widgets.SquareLayout>
     </RelativeLayout>
 
