@@ -15,8 +15,8 @@ import java.util.List;
 
 public class C {
     public static String WEBURL = "";
-    public static String BaseUrl = "http://10.5.140.86:8080";
-    public static String BaseImgUrl = "http://10.5.140.86:8080/upload";
+    public static String BaseUrl = "http://10.5.140.122:8080";
+    public static String BaseImgUrl = "http://10.5.140.122:8080/upload";
     // 默认存放图片的路径
     public final static String DEFAULT_SAVE_IMAGE_PATH = Environment.getExternalStorageDirectory() + File.separator + "CircleDemo" + File.separator + "Images"
             + File.separator;
